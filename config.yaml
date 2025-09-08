@@ -1,0 +1,20 @@
+defaults:
+  state: "Maharashtra"
+  mandi: "Nashik"
+  commodity: "Onion"
+  horizons: [1, 7, 14]
+  forecast_days: 14
+  alert_threshold_pct: 15
+
+training:
+  test_size_days: 30
+  val_size_days: 30
+  model: "lightgbm"  # options: lightgbm, xgboost, sarimax
+  optuna_trials: 20
+
+etl:
+  agmarknet:
+    enabled: true
+    # If you have API or scraping details, add here
+    max_days_back: 365
+    rate_limit_s: 1.0

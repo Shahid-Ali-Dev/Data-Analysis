@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bmi"
+version = "0.1.0"
+description = "BharatMandi Intelligence – Commodity Price Nowcasting & Forecasting"
+authors = [{ name="You", email="you@example.com" }]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.black]
+line-length = 100
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
