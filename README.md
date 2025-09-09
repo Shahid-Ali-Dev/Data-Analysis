@@ -1,4 +1,4 @@
-# BharatMandi Intelligence — Commodity Price Nowcasting & Forecasting (India)
+# 🏪 BharatMandi Intelligence — Commodity Price Nowcasting & Forecasting (India)
 
 **Goal:** Build an industry-grade system that ingests all-India mandi price data (e.g., Agmarknet),
 enriches with weather, seasonality & events, then **nowcasts and forecasts 1–14 days ahead**
